@@ -18,9 +18,10 @@
   
 5.EC2 Deployment:  
   EC2 instance public IP：i-038672782cd1032a0  
-  arn:aws:iam::373229397576:user/jzren  
+  IAM role ARN:arn:aws:iam::373229397576:user/jzren  
   Challenges:
     Needed to configure proper DynamoDB and EC2 permissions for the IAM user.  
     Resolved credential errors by attaching the correct IAM policy and reconfiguring AWS CLI.  
     
+
 
